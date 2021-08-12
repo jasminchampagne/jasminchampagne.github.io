@@ -1,0 +1,19 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+
+.lora {
+    font-family: 'Lora', serif;
+}
+
+/* colors */
+:root {
+    --light-blue: #8ADED3;
+}
+
+.bg-light-blue {
+    background-color: var(--light-blue);
+}
+
+.text-light-blue {
+    color: var(--light-blue);
+}
