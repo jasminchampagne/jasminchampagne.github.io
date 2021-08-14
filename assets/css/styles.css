@@ -1,19 +1,51 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
 
-.lora {
+@font-face {
+    font-family: 'MasterBlush';
+    src: url('../fonts/Masterblush-Regular.ttf') format('truetype');
+}
+
+.font-lora {
     font-family: 'Lora', serif;
+}
+
+.font-masterblush {
+    font-family: 'MasterBlush';
 }
 
 /* colors */
 :root {
     --light-blue: #8ADED3;
+    --navy-blue: #2d4654;
+    --white-blue: #eef8f7;
+    --curvy: #ccd2b2;
 }
 
 .bg-light-blue {
     background-color: var(--light-blue);
 }
 
+.bg-white-blue {
+    background-color: var(--white-blue);
+}
+
+.bg-navy-blue {
+    background-color: var(--navy-blue);
+}
+
 .text-light-blue {
     color: var(--light-blue);
+}
+
+.text-white-blue {
+    color: var(--white-blue);
+}
+
+.text-navy-blue {
+    color: var(--navy-blue);
+}
+
+.border-curvy {
+    border-color: var(--curvy);
 }
