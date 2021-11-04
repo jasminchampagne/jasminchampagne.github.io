@@ -49,3 +49,23 @@
 .border-curvy {
     border-color: var(--curvy);
 }
+
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.top-waves {
+    background-image: url("/assets/images/topwaves.svg");
+}
+
+.bottom-waves {
+    background-image: url("/assets/images/bottomwaves.svg");
+}
+
+.footer-wave {
+    background-image: url("/assets/images/footerwave.svg");
+}
