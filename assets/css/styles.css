@@ -52,6 +52,13 @@
 
 .spacer {
     aspect-ratio: 960/300;
+}
+
+.screen {
+    aspect-ratio: 960/540;
+}
+
+.svg {
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -68,4 +75,18 @@
 
 .footer-wave {
     background-image: url("/assets/images/footerwave.svg");
+}
+
+.bg {
+    background-image: url("/assets/images/widebg.svg");
+}
+
+@media only screen and (max-width: 640px) {
+    .bg {
+        background-image: url("/assets/images/tallbg.svg");
+    }
+
+    .screen {
+        aspect-ratio: 540/960;
+    }
 }
